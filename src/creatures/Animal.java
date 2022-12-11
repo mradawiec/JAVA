@@ -1,13 +1,9 @@
-public class Animal {
-    final String species;
-    private Double weight;
-    double DEFAULT_WEIGHT = 3.0;
-    double DEFAULT_CAT_WEIGHT = 3.0;
-    double DEFAULT_ELEPHANT_WEIGHT = 100.0;
-    double DEFAULT_DOG_WEIGHT = 3.0;
+package creatures;
+
+public abstract class Animal extends Pet implements Feedable {
 
     public Animal(String species) {
-        this.species = species;
+        super(species);
         switch (species) {
             case "canis" -> this.weight = DEFAULT_DOG_WEIGHT;
             case "felis" -> this.weight = DEFAULT_CAT_WEIGHT;
@@ -15,17 +11,26 @@ public class Animal {
             default -> this.weight = DEFAULT_WEIGHT;
         }
     }
-    void feed() {
-        weight = weight + 1.5;
-        System.out.println("Weight after feeding: " + weight);
+
+    @Override
+    public void feed() {
+        this.weight += 0.5;
+        System.out.println("Peet feeded");
     }
-    void takeForAWalk(){
+
+    @Override
+    public Double getWeight() {
+        return this.weight;
+
+    }
+
+    public void takeForAWalk(){
         if(weight>0) {
             weight -= 1.5;
             System.out.println("Weight after walk: " + weight);
         } else if(weight<0.01)
         {
-            System.out.println("Pet has died");
+            System.out.println("Peet has died :(");
         }
     }
 
