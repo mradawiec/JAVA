@@ -4,16 +4,28 @@ import devices.Car;
 import devices.Devices;
 import devices.Phone;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Human jobFunds = new Human();
 
-        Human Marek = new Human();
+        /*List<String> apps = new ArrayList<String>();
+        apps.add("TikTok");
+        apps.add("Youtube");
+
+        Human Marek = new Human("homo sapiens");
+        Phone nokia = new Phone("Nokia", "3310", 1980, 1.2);
+        nokia.installAnnApp(apps);*/
+
+
+        /*System.out.println(nokia);
         Pet dog = new Pet("canis");
-        Marek.pet = dog;
+        //Marek.pet = dog;
         Marek.pet.takeForAWalk();
         Marek.pet.feed();
 
+        Human jobFunds = new Human();
         Marek.moneyFromJob=jobFunds;
         jobFunds.setSalary(3000.69);
         jobFunds.getSalary();
@@ -35,10 +47,8 @@ public class Main {
 
         Car car = new Car("E36", "BMW", 1999, 1500.0);
         System.out.println(car);
-        Phone nokia = new Phone("Nokia", "3310", 1980, 1.2);
-        System.out.println(nokia);
 
         Car fiat = new Car("Doblo", "Fiat", 2017, 15000.0);
-        fiat.turnOn();
+        fiat.turnOn();*/
     }
 }

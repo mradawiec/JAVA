@@ -1,12 +1,17 @@
 import creatures.Animal;
 import devices.Car;
 
-public class Human{
+public class Human extends Animal{
     Animal pet;
     Human cash;
     private Car car;
     Human moneyFromJob;
     private Double salary;
+
+    public Human(String species) {
+        super(species);
+    }
+
 
     public Double getSalary() {
         System.out.println("Last info about seeing your salary was: thursday and salary was: "+ salary + "\n");
@@ -37,4 +42,9 @@ public class Human{
         public String toString(){
         return salary + "\n";
         }
+
+    @Override
+    public void takeforawalk() {
+
+    }
 }

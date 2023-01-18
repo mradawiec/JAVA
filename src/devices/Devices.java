@@ -15,4 +15,5 @@ public abstract class Devices{
         this.value = value;
     }
     public abstract void turnOn();
+
 }

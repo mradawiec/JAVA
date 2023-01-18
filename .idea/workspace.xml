@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a28feec-11de-4121-9329-608d5d90cfd2" name="Changes" comment="Third task ended successfully!&#10;Minimal wage has been achieved ;)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Salleable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creatures/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creatures/FarmAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creatures/Feedable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creatures/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/devices/Rechargeable.java" afterDir="false" />
+    <list default="true" id="6a28feec-11de-4121-9329-608d5d90cfd2" name="Changes" comment="zadanie z telefonem">
+      <change afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devices/Diesel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devices/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/devices/LPG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatures/Feedable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatures/Feedable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,14 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/milos/IdeaProjects/JAVA&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -126,6 +124,7 @@
     <MESSAGE value="First task ended successfully" />
     <MESSAGE value="First second ended successfully" />
     <MESSAGE value="Third task ended successfully!&#10;Minimal wage has been achieved ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third task ended successfully!&#10;Minimal wage has been achieved ;)" />
+    <MESSAGE value="zadanie z telefonem" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadanie z telefonem" />
   </component>
 </project>
